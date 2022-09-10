@@ -1,0 +1,15 @@
+.home{
+    @apply h-screen flex justify-center items-center bg-gray-50
+}
+.home .main{
+    @apply bg-white rounded px-4 pb-4 space-y-2 shadow shadow-blue-100
+}
+.home .main h1{
+    @apply text-center text-2xl
+}
+.home .main .router{
+    @apply space-x-2
+}
+.home .main .router .home_link{
+    @apply p-2 bg-blue-500 text-white rounded
+}

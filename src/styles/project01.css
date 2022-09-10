@@ -1,0 +1,24 @@
+.project01{
+    @apply w-10/12 mx-auto space-y-5
+}
+.project01 h1{
+    @apply text-2xl text-center font-bold
+}
+.project01 input{
+    @apply w-full p-2 border rounded focus:outline-none focus:border-blue-500
+}
+.project01 table{
+    @apply w-full
+}
+.project01 table thead {
+    @apply bg-gray-500 text-white
+}
+.project01 table thead th {
+    @apply py-2
+}
+.project01 table tbody tr td{
+    @apply py-2 text-center border
+}
+.project01 table tbody tr:hover{
+    @apply bg-gray-100 cursor-pointer
+}
